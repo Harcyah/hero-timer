@@ -1,0 +1,4 @@
+## Title: HeroTimer
+## Interface: 80300
+## Notes: Display remaining time before tol'barad & wintergrasp
+HeroTimer.lua
