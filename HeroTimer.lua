@@ -11,12 +11,12 @@ local function UpdateWorldPvpStatus()
 	DisplayWorldPvpStatus(TOLBARAD);
 end
 
-local eventFrame = CreateFrame("Frame", "HeroTimerFrame", UIParent);
-eventFrame:RegisterEvent("PLAYER_ENTERING_WORLD");
+local eventFrame = CreateFrame('Frame', 'HeroTimerFrame', UIParent);
+eventFrame:RegisterEvent('PLAYER_ENTERING_WORLD');
 
-eventFrame:SetScript("OnEvent", function(self, event, ...)
+eventFrame:SetScript('OnEvent', function(self, event, ...)
 
-	if (event == "PLAYER_ENTERING_WORLD") then
+	if (event == 'PLAYER_ENTERING_WORLD') then
 		UpdateWorldPvpStatus();
 	end
 
