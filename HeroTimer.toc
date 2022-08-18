@@ -1,5 +1,5 @@
 ## Title: HeroTimer
-## Interface: 90205
+## Interface: 90207
 ## Author: harcyah@gmail.com
 ## Notes: Display remaining time before tol'barad & wintergrasp
 HeroTimer.lua
